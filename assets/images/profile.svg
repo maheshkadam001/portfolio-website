@@ -1,0 +1,29 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with subtle gradient -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DAA520"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="300" fill="url(#bgGrad)"/>
+  <rect width="300" height="300" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+  
+  <!-- Professional User icon -->
+  <circle cx="150" cy="110" r="35" fill="url(#goldGrad)"/>
+  <path d="M150 170 C125 170 105 185 105 205 L105 230 L195 230 L195 205 C195 185 175 170 150 170" fill="url(#goldGrad)"/>
+  
+  <!-- Elegant accent rings -->
+  <circle cx="150" cy="110" r="40" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+  <circle cx="150" cy="110" r="45" fill="none" stroke="#DAA520" stroke-width="0.5" opacity="0.2"/>
+  
+  <!-- Professional title -->
+  <text x="150" y="265" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#D4AF37">MAHESH KADAM</text>
+  <text x="150" y="285" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff" opacity="0.8">Data Analytics</text>
+</svg>

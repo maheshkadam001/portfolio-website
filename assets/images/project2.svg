@@ -1,0 +1,39 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#000000"/>
+  
+  <!-- Task board mockup -->
+  <rect x="30" y="30" width="340" height="190" rx="10" fill="#1a1a1a" stroke="#D4AF37" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="320" height="25" fill="#D4AF37"/>
+  <text x="50" y="55" font-family="Arial, sans-serif" font-size="12" fill="#000000">Task Management Dashboard</text>
+  
+  <!-- Column headers -->
+  <rect x="50" y="75" width="80" height="20" fill="#E6E6FA"/>
+  <text x="55" y="87" font-family="Arial, sans-serif" font-size="10" fill="#333">To Do</text>
+  
+  <rect x="140" y="75" width="80" height="20" fill="#E6E6FA"/>
+  <text x="145" y="87" font-family="Arial, sans-serif" font-size="10" fill="#333">In Progress</text>
+  
+  <rect x="230" y="75" width="80" height="20" fill="#E6E6FA"/>
+  <text x="235" y="87" font-family="Arial, sans-serif" font-size="10" fill="#333">Done</text>
+  
+  <!-- Task cards -->
+  <rect x="52" y="100" width="76" height="35" rx="3" fill="#FFE4E1" stroke="#FFB6C1"/>
+  <rect x="52" y="140" width="76" height="35" rx="3" fill="#FFE4E1" stroke="#FFB6C1"/>
+  
+  <rect x="142" y="100" width="76" height="35" rx="3" fill="#E0F2F1" stroke="#81C784"/>
+  
+  <rect x="232" y="100" width="76" height="35" rx="3" fill="#E8F5E8" stroke="#4CAF50"/>
+  <rect x="232" y="140" width="76" height="35" rx="3" fill="#E8F5E8" stroke="#4CAF50"/>
+  
+  <!-- Task icons -->
+  <circle cx="65" cy="117" r="3" fill="#FF69B4"/>
+  <circle cx="65" cy="157" r="3" fill="#FF69B4"/>
+  <circle cx="155" cy="117" r="3" fill="#FFA500"/>
+  <circle cx="245" cy="117" r="3" fill="#32CD32"/>
+  <circle cx="245" cy="157" r="3" fill="#32CD32"/>
+  
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Task Management App</text>
+</svg>

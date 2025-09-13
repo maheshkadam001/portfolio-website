@@ -1,0 +1,27 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#000000"/>
+  
+  <!-- Website mockup -->
+  <rect x="50" y="40" width="300" height="180" rx="10" fill="#1a1a1a" stroke="#D4AF37" stroke-width="2"/>
+  
+  <!-- Header bar -->
+  <rect x="60" y="50" width="280" height="30" fill="#D4AF37"/>
+  <circle cx="80" cy="65" r="4" fill="#FFFFFF"/>
+  <circle cx="95" cy="65" r="4" fill="#FFFFFF"/>
+  <circle cx="110" cy="65" r="4" fill="#FFFFFF"/>
+  
+  <!-- Content lines -->
+  <rect x="70" y="100" width="120" height="8" fill="#ffffff"/>
+  <rect x="70" y="120" width="200" height="6" fill="#e0e0e0"/>
+  <rect x="70" y="135" width="160" height="6" fill="#e0e0e0"/>
+  
+  <!-- Button -->
+  <rect x="70" y="160" width="80" height="25" rx="5" fill="#D4AF37"/>
+  
+  <!-- Shopping cart icon -->
+  <circle cx="280" cy="120" r="20" fill="#F5DEB3" stroke="#D4AF37" stroke-width="2"/>
+  <path d="M270 115 L275 115 L277 125 L283 125 L285 115 L290 115" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">E-Commerce UI</text>
+</svg>

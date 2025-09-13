@@ -1,0 +1,40 @@
+# Portfolio Website .gitignore
+
+# System Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Log Files
+*.log
+logs/
+
+# Node modules (if using any build tools later)
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Cache directories
+.cache/
+*.cache
+
+# Windows specific
+desktop.ini
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride

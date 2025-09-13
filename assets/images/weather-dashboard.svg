@@ -1,0 +1,161 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="tempGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+  
+  <!-- Dashboard Container -->
+  <rect x="10" y="10" width="380" height="280" fill="#1e1e1e" rx="15" ry="15" filter="url(#shadow)"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="360" height="50" fill="#2a2a2a" rx="8" ry="8"/>
+  <text x="30" y="42" fill="#D4AF37" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Weather Dashboard</text>
+  <text x="30" y="58" fill="#888" font-family="Arial, sans-serif" font-size="12">Real-time Analytics</text>
+  
+  <!-- Current Weather Card -->
+  <rect x="20" y="80" width="120" height="100" fill="#333" rx="8" ry="8"/>
+  
+  <!-- Sun Icon -->
+  <circle cx="60" cy="110" r="15" fill="#FFD700" opacity="0.9"/>
+  <g stroke="#FFD700" stroke-width="2" opacity="0.7">
+    <line x1="60" y1="85" x2="60" y2="90"/>
+    <line x1="60" y1="130" x2="60" y2="135"/>
+    <line x1="35" y1="110" x2="40" y2="110"/>
+    <line x1="80" y1="110" x2="85" y2="110"/>
+    <line x1="42.9" y1="92.9" x2="46.4" y2="96.4"/>
+    <line x1="73.6" y1="123.6" x2="77.1" y2="127.1"/>
+    <line x1="42.9" y1="127.1" x2="46.4" y2="123.6"/>
+    <line x1="73.6" y1="96.4" x2="77.1" y2="92.9"/>
+  </g>
+  
+  <text x="90" y="105" fill="#D4AF37" font-family="Arial, sans-serif" font-size="24" font-weight="bold">25°</text>
+  <text x="90" y="120" fill="#888" font-family="Arial, sans-serif" font-size="12">Sunny</text>
+  <text x="30" y="170" fill="#888" font-family="Arial, sans-serif" font-size="10">New York, NY</text>
+  
+  <!-- Temperature Chart -->
+  <rect x="150" y="80" width="230" height="100" fill="#333" rx="8" ry="8"/>
+  <text x="160" y="100" fill="#D4AF37" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Temperature Trend (7 Days)</text>
+  
+  <!-- Chart Grid -->
+  <g stroke="#444" stroke-width="1" opacity="0.3">
+    <line x1="165" y1="110" x2="365" y2="110"/>
+    <line x1="165" y1="130" x2="365" y2="130"/>
+    <line x1="165" y1="150" x2="365" y2="150"/>
+    <line x1="165" y1="170" x2="365" y2="170"/>
+  </g>
+  
+  <!-- Temperature Line Chart -->
+  <polyline points="165,140 195,130 225,125 255,135 285,145 315,140 345,130 365,125" 
+            fill="none" stroke="url(#tempGradient)" stroke-width="3"/>
+  
+  <!-- Chart Points -->
+  <g fill="url(#tempGradient)">
+    <circle cx="165" cy="140" r="3"/>
+    <circle cx="195" cy="130" r="3"/>
+    <circle cx="225" cy="125" r="3"/>
+    <circle cx="255" cy="135" r="3"/>
+    <circle cx="285" cy="145" r="3"/>
+    <circle cx="315" cy="140" r="3"/>
+    <circle cx="345" cy="130" r="3"/>
+    <circle cx="365" cy="125" r="3"/>
+  </g>
+  
+  <!-- Chart Labels -->
+  <g fill="#888" font-family="Arial, sans-serif" font-size="9">
+    <text x="160" y="185" text-anchor="middle">Mon</text>
+    <text x="190" y="185" text-anchor="middle">Tue</text>
+    <text x="220" y="185" text-anchor="middle">Wed</text>
+    <text x="250" y="185" text-anchor="middle">Thu</text>
+    <text x="280" y="185" text-anchor="middle">Fri</text>
+    <text x="310" y="185" text-anchor="middle">Sat</text>
+    <text x="340" y="185" text-anchor="middle">Sun</text>
+  </g>
+  
+  <!-- Weather Metrics Cards -->
+  <!-- Humidity Card -->
+  <rect x="20" y="190" width="75" height="60" fill="#333" rx="6" ry="6"/>
+  <text x="30" y="210" fill="#4A90E2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Humidity</text>
+  <text x="30" y="230" fill="#D4AF37" font-family="Arial, sans-serif" font-size="18" font-weight="bold">68%</text>
+  
+  <!-- Wind Speed Card -->
+  <rect x="105" y="190" width="75" height="60" fill="#333" rx="6" ry="6"/>
+  <text x="115" y="210" fill="#4A90E2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Wind</text>
+  <text x="115" y="230" fill="#D4AF37" font-family="Arial, sans-serif" font-size="16" font-weight="bold">12 mph</text>
+  
+  <!-- Pressure Card -->
+  <rect x="190" y="190" width="75" height="60" fill="#333" rx="6" ry="6"/>
+  <text x="200" y="210" fill="#4A90E2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Pressure</text>
+  <text x="200" y="230" fill="#D4AF37" font-family="Arial, sans-serif" font-size="14" font-weight="bold">1013 mb</text>
+  
+  <!-- UV Index Card -->
+  <rect x="275" y="190" width="75" height="60" fill="#333" rx="6" ry="6"/>
+  <text x="285" y="210" fill="#4A90E2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">UV Index</text>
+  <text x="285" y="230" fill="#FF6B6B" font-family="Arial, sans-serif" font-size="18" font-weight="bold">6</text>
+  <text x="285" y="245" fill="#888" font-family="Arial, sans-serif" font-size="8">High</text>
+  
+  <!-- Forecast -->
+  <rect x="20" y="260" width="360" height="25" fill="#2a2a2a" rx="6" ry="6"/>
+  <text x="30" y="275" fill="#D4AF37" font-family="Arial, sans-serif" font-size="12" font-weight="bold">5-Day Forecast</text>
+  
+  <!-- Mini forecast icons -->
+  <g fill="#888" font-family="Arial, sans-serif" font-size="8">
+    <circle cx="140" cy="272" r="4" fill="#FFD700"/>
+    <text x="150" y="276">26°</text>
+    
+    <circle cx="180" cy="272" r="4" fill="#87CEEB"/>
+    <text x="190" y="276">23°</text>
+    
+    <circle cx="220" cy="272" r="4" fill="#FFD700"/>
+    <text x="230" y="276">28°</text>
+    
+    <circle cx="260" cy="272" r="4" fill="#D3D3D3"/>
+    <text x="270" y="276">22°</text>
+    
+    <circle cx="300" cy="272" r="4" fill="#FFD700"/>
+    <text x="310" y="276">27°</text>
+  </g>
+  
+  <!-- Data visualization elements -->
+  <!-- Circular Progress for Humidity -->
+  <circle cx="57" cy="230" r="8" fill="none" stroke="#444" stroke-width="2"/>
+  <circle cx="57" cy="230" r="8" fill="none" stroke="#4A90E2" stroke-width="2" 
+          stroke-dasharray="34" stroke-dashoffset="11" transform="rotate(-90 57 230)"/>
+  
+  <!-- Wind direction arrow -->
+  <g transform="translate(142,230) rotate(45)">
+    <path d="M-4,0 L0,-8 L4,0 L0,4 Z" fill="#4A90E2"/>
+  </g>
+  
+  <!-- Pressure gauge -->
+  <path d="M 227,235 A 8,8 0 0,1 243,235" fill="none" stroke="#444" stroke-width="2"/>
+  <path d="M 227,235 A 8,8 0 0,1 239,230" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  
+  <!-- Connection lines (subtle) -->
+  <g stroke="#D4AF37" stroke-width="1" opacity="0.3">
+    <line x1="80" y1="160" x2="100" y2="180"/>
+    <line x1="120" y1="160" x2="140" y2="180"/>
+  </g>
+  
+  <!-- Status indicators -->
+  <circle cx="370" cy="30" r="4" fill="#00FF00" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="350" y="35" fill="#888" font-family="Arial, sans-serif" font-size="8">Live</text>
+</svg>
