@@ -6,6 +6,8 @@ A modern, responsive portfolio website showcasing my journey in Data Science and
 
 Visit my portfolio: [https://maheshkadam001.github.io/portfolio-website/](https://maheshkadam001.github.io/portfolio-website/)
 
+**🚀 Status**: Live and deployed on GitHub Pages!
+
 ## 📋 Features
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
